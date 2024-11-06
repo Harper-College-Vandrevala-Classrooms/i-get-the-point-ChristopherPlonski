@@ -27,7 +27,7 @@ int main() {
 	cout << pt1AndPt2Midpt << endl; // Prints out (4.35, 4.3)
 	cout << pt1AndPt2Midpt.get_y_coord() << endl;
 	//assert(pt1AndPt2Midpt.get_x_coord() == 4.35);
-	//assert(pt1AndPt2Midpt.get_y_coord() == 4.3);
+	//assert(pt1AndPt2Midpt.get_y_coord() == 4.3); // Somehow isn't passing?
 
 	cout << "--Tests complete. \n";
 }
